@@ -3,6 +3,6 @@ layout: 'default'
 title: 'Commitee'
 ---
 
-##SSRR2012 Committee
+##SSRR 2013 Committee
 
 ***TBD***
