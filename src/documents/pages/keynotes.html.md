@@ -1,6 +1,7 @@
 ---
 layout: 'default'
 title: 'Keynotes'
+ignored:true
 ---
 
 ###Monday Nov. 5 9:00AM Brazos Amphitheater

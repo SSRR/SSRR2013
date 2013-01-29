@@ -5,7 +5,7 @@ title: 'Submissions'
 
 #Paper Submission
 
-Papers have to be submitted via Microsoft's Academic Conference Management Service. The submission page is [https://cmt.research.microsoft.com/SSRR2012/](https://cmt.research.microsoft.com/SSRR2012/)
+Papers have to be submitted via Microsoft's Academic Conference Management Service. The submission page is [XXX](XXX)
 
 No-show paper will not be included in IEEE Xplores.
 

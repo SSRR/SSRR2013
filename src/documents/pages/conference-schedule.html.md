@@ -1,6 +1,7 @@
 ---
 layout: 'default'
 title: 'Conference Schedule'
+ignored:true
 ---
 
 Schedule for paper presentations may have shifted by 5 -10 minutes, please see the updated schedule [here](http://ssrr2012.org/scheduleAndMap.pdf).

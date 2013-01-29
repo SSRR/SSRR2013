@@ -1,6 +1,7 @@
 ---
 layout: 'default'
 title: 'Registration'
+ignored:true
 ---
 
 Advance Registration now open through Oct. 19 here: 

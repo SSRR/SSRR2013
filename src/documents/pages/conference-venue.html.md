@@ -1,6 +1,7 @@
 ---
 layout: 'default'
 title: 'Conference Venue'
+ignored:true
 ---
 
 SSRR 2012 will be held at the Hilton Hotel in College Station, Texas, which is the home of Texas A&M University. College Station is accessible by plane with frequent connections from Dallas and Houston to the Easterwood Airport in College Station. (CLL is the airport code). The nearest major international airport is Houston Intercontinental (HOU), which is a 90 minute drive by rental car.

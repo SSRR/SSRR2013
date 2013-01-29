@@ -1,6 +1,7 @@
 ---
 layout: 'default'
 title: 'Banquet & Tours'
+ignored:true
 ---
 
 Disaster City, Texas A&M Robotics Laboratories, Bush Presidential Library
