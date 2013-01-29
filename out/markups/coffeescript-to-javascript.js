@@ -1,14 +1,8 @@
-(function() {
-  var math;
+# Type here!
 
-  math = {
-    root: Math.sqrt,
-    square: square,
-    cube: function(x) {
-      return x * square(x);
-    }
-  };
+math =
+  root:   Math.sqrt
+  square: square
+  cube:   (x) -> x * square x
 
-  alert("Three cubed is " + (math.cube(3)));
-
-}).call(this);
+alert "Three cubed is #{math.cube 3}"

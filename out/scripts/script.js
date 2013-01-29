@@ -1,14 +1,9 @@
-(function() {
+$ ->
+  # Toggle the "view source"
+    $source = $('#source')
+    $sourceHeader = $('#source-header')
+    $sourceCode = $('#source-code')
+    $sourceHeader.click ->
+        $sourceCode.toggle()
+    $sourceHeader.trigger('click')
 
-  $(function() {
-    var $source, $sourceCode, $sourceHeader;
-    $source = $('#source');
-    $sourceHeader = $('#source-header');
-    $sourceCode = $('#source-code');
-    $sourceHeader.click(function() {
-      return $sourceCode.toggle();
-    });
-    return $sourceHeader.trigger('click');
-  });
-
-}).call(this);
