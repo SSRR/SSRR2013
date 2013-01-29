@@ -31,12 +31,12 @@
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
-				<a class="brand" href="/">SSRR 2013</a>
+				<a class="brand" href="/2013">SSRR 2013</a>
 				<ul class="nav">
 					<% for document in @getCollection('documents').toJSON(): %>
 						<% if document.url.indexOf('/pages') == 0: %>
 						<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
-							<a href="2013<%= document.url %>" property="dc:title"><%= document.title %></a>
+							<a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
 						</li>
 						<% end %>
 					<% end %>
