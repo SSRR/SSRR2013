@@ -11,10 +11,10 @@ The SSRR conference website is based on the Kitchensink Skeleton from [DocPad](h
 1. Clone the project and run the server
 
 	``` bash
-	git clone git://github.com/bevry/website.docpad.git
-	cd website.docpad
+	git clone git://github.com/SSRR/SSRR2013.git
+	cd SSRR2013
 	npm install
-	coffee server.coffee
+	docpad run
 	```
 
 1. [Open http://localhost:9778/](http://localhost:9778/)
