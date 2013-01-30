@@ -23,7 +23,11 @@ The SSRR conference website is based on the Kitchensink Skeleton from [DocPad](h
 
 ## When you want to deploy your modifications on the SSRR website
 
-1. docpad generate -- env static
+1. To generate a static version of the website ready for deployment:
+
+	``` bash
+	docpad generate -- env static
+	```	
 
 1. Copy the contents of out in the corresponding directory of the website
 
