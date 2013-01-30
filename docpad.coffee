@@ -12,19 +12,19 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://www.ssrr2012.org/"
+			url: "http://www.ssrr2012.org/2013"
 
 			# The default title of our website
-			title: "SSRR 2012"
+			title: "SSRR 2013"
 
 			# The website description (for SEO)
 			description: """
-				     SSRR 2012 Website
+				     SSRR 2013 Website
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				disaster, rescue, rescue robotics, safety and security
+				disaster, rescue, rescue robotics, safety and security, conference
 				"""
 
 
