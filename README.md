@@ -78,7 +78,7 @@ There is 2 github repositories:
 1. Copy the contents of out directory containing the generated files in the corresponding directory of the website:
 
 	``` bash
-	cp -r out ../ssrr.github.com/
+	cp -r out/ ../ssrr.github.com/
 	```
 	
 2. Commit & push the generated files on the server
@@ -89,7 +89,7 @@ There is 2 github repositories:
 	git push origin master
 	```
 
-3. Have a look at the new website: http://ssrr.github.com/
+3. Have a look at the new website: [http://ssrr.github.com/](http://ssrr.github.com/)
 
 
 
