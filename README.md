@@ -6,24 +6,30 @@ The SSRR conference website is based on the Kitchensink Skeleton from [DocPad](h
 
 1. [Install DocPad](https://github.com/bevry/docpad) if you want to generate a local version of the website on your machine
 
-1. Clone the SSRR source repository on your computer and run the server
+1. Configure correctly your email and name:
+
+git config --global user.name "Your Name"
+git config --global user.email "Your.Name@email.com"
+
+1. Clone the SSRR source repository on your computer
 
 
 	``` bash
-	git clone git://github.com/SSRR/SSRR2013.git
+	git clone git@github.com:SSRR/SSRR2013.git
 	```
+
+## When you want to test the webpages locally on your machine
 
 1. If you want to have a local server on your computer, run the server :
 
 	``` bash
 	cd SSRR2013
-	npm install
 	docpad run
 	```
  
 1. [Open http://localhost:9778/](http://localhost:9778/)
 
-1. Start hacking away by modifying the files in the `src` directory
+1. Start hacking away by modifying the files in the `src` directory (all the pages are in the SSRR2013/src/documents/pages/ directory)
 
 1. Every time you want to commit your modifications on your local repository: 
 
