@@ -1,6 +1,7 @@
 # The SRRR website
 
-The SSRR conference website is based on the Kitchensink Skeleton from [DocPad](https://github.com/bevry/docpad).
+The SSRR conference website is based on the Kitchensink Skeleton from [DocPad](https://github.com/bevry/docpad). DocPad is a static website generator based on JavaScript.
+When the generation is done, you can move the resulting files to a web server (html and css files).
 
 ## Getting Started
 
@@ -22,7 +23,7 @@ The SSRR conference website is based on the Kitchensink Skeleton from [DocPad](h
 
 ## When you want to test the webpages locally on your machine
 
-1. If you want to have a local server on your computer, run the server :
+1. If you want to run a local server on your computer that will regenerate the webpages at every modifications:
 
 	``` bash
 	cd SSRR2013
