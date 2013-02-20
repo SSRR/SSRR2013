@@ -8,8 +8,10 @@ The SSRR conference website is based on the Kitchensink Skeleton from [DocPad](h
 
 1. Configure correctly your email and name:
 
-git config --global user.name "Your Name"
-git config --global user.email "Your.Name@email.com"
+	``` bash
+	git config --global user.name "Your Name"
+	git config --global user.email "Your.Name@email.com"
+	```
 
 1. Clone the SSRR source repository on your computer
 
