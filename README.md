@@ -32,7 +32,10 @@ When the generation is done, you can move the resulting files to a web server (h
  
 1. [Open http://localhost:9778/](http://localhost:9778/)
 
-1. Start hacking away by modifying the files in the `src` directory (all the pages are in the SSRR2013/src/documents/pages/ directory)
+1. Start hacking away by modifying the files in the `src` directory. All the pages are in the SSRR2013/src/documents/pages/ directory. Only the index.html (entry of the website) is under SSRR2013/src/
+
+2. Files with .md extension are text files based on [Markdown](http://daringfireball.net/projects/markdown/syntax) markup.
+
 
 1. Every time you want to commit your modifications on your local repository: 
 
@@ -43,8 +46,13 @@ When the generation is done, you can move the resulting files to a web server (h
 1. Push your modifications on the github repository:
 
 	``` bash
+	git push origin master
+	```
+	
+1. If you want to get the last version of the files on the server if someone else made a modifications:
+
+	``` bash
 	git pull
-	git push
 	```
 
 ## When you want to deploy your modifications on the SSRR website
