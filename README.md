@@ -3,6 +3,11 @@
 The SSRR conference website is based on the Kitchensink Skeleton from [DocPad](https://github.com/bevry/docpad). DocPad is a static website generator based on JavaScript.
 When the generation is done, you can move the resulting files to a web server (html and css files).
 
+There is 2 github repositories:
+
+* one containing the source file of the website : [https://github.com/SSRR/SSRR2013](https://github.com/SSRR/SSRR2013)
+* one containing only HTML and CSS generated files: [https://github.com/SSRR/ssrr.github.com](https://github.com/SSRR/ssrr.github.com)
+
 ## Getting Started
 
 1. [Install DocPad](https://github.com/bevry/docpad) if you want to generate a local version of the website on your machine
@@ -14,11 +19,17 @@ When the generation is done, you can move the resulting files to a web server (h
 	git config --global user.email "Your.Name@email.com"
 	```
 
-1. Clone the SSRR source repository on your computer
+1. Clone the SSRR source repository on your computer:
 
 
 	``` bash
 	git clone git@github.com:SSRR/SSRR2013.git
+	```
+
+1. The SSRR website is available on another github repository. In order to clone this repository:
+
+	``` bash
+	git clone git@github.com:SSRR/ssrr.github.com.git
 	```
 
 ## When you want to test the webpages locally on your machine
@@ -49,7 +60,7 @@ When the generation is done, you can move the resulting files to a web server (h
 	git push origin master
 	```
 	
-1. If you want to get the last version of the files on the server if someone else made a modifications:
+1. If you want to get the last version of the files on the server if someone else made a modification:
 
 	``` bash
 	git pull
@@ -57,11 +68,28 @@ When the generation is done, you can move the resulting files to a web server (h
 
 ## When you want to deploy your modifications on the SSRR website
 
+
 1. To generate a static version of the website ready for deployment:
 
 	``` bash
 	docpad generate --env static
 	```	
 
-1. Copy the contents of out in the corresponding directory of the website
+1. Copy the contents of out directory containing the generated files in the corresponding directory of the website:
+
+	``` bash
+	cp -r out ../ssrr.github.com/
+	```
+	
+2. Commit & push the generated files on the server
+
+	``` bash
+	git add .
+	git commit -m "Meaninfull comment"
+	git push origin master
+	```
+
+3. Have a look at the new website: http://ssrr.github.com/
+
+
 
