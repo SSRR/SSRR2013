@@ -3,7 +3,7 @@
     <title>Benjamin Lupton</title>
     <link href="http://balupton.com/atom.xml" rel="self"/>
     <link href="http://balupton.com"/>
-    <updated>2013-02-21T07:38:51.984Z</updated>
+    <updated>2013-02-21T21:42:45.148Z</updated>
     <id>http://balupton.com</id>
     <author>
         <name>Benjamin Lupton</name>
@@ -50,11 +50,13 @@
         
     
         
+    
+        
             <entry>
                 <title>Bonjour</title>
-                <link href="http://balupton.com/posts/bonjour.html"/>
-                <updated>2013-02-20T20:11:56.000Z</updated>
-                <id>http://balupton.com/posts/bonjour.html</id>
+                <link href="http://balupton.com/posts/bonjour"/>
+                <updated>2013-02-21T21:14:15.000Z</updated>
+                <id>http://balupton.com/posts/bonjour</id>
                 <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -118,27 +120,33 @@
                         
                     
                         
-                    
-                        
-                    
-                        
-                    
-                        
-                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/call-for-papers.html&quot; class=&quot;&quot;&gt;
-                            &lt;a href=&quot;/pages/call-for-papers.html&quot; property=&quot;dc:title&quot;&gt;Call for Papers&lt;/a&gt;
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/call-for-papers&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/call-for-papers&quot; property=&quot;dc:title&quot;&gt;Call for Papers&lt;/a&gt;
                         &lt;/li&gt;
                         
                     
                         
-                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/committee.html&quot; class=&quot;&quot;&gt;
-                            &lt;a href=&quot;/pages/committee.html&quot; property=&quot;dc:title&quot;&gt;Commitee&lt;/a&gt;
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/committee&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/committee&quot; property=&quot;dc:title&quot;&gt;Commitee&lt;/a&gt;
                         &lt;/li&gt;
                         
                     
                         
-                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/Submissions.html&quot; class=&quot;&quot;&gt;
-                            &lt;a href=&quot;/pages/Submissions.html&quot; property=&quot;dc:title&quot;&gt;Submissions&lt;/a&gt;
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/Submissions&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/Submissions&quot; property=&quot;dc:title&quot;&gt;Submissions&lt;/a&gt;
                         &lt;/li&gt;
+                        
+                    
+                        
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/test.md&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/test.md&quot; property=&quot;dc:title&quot;&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        
+                    
+                        
+                    
+                        
+                    
                         
                     
                         
@@ -176,13 +184,47 @@
         &lt;footer&gt;
             &lt;p&gt;&amp;copy; 2013 SSRR&lt;/p&gt;
             &lt;p style=&quot;float:right;&quot;&gt;
-                This website was last updated at 2013-02-21T07:38:51.984Z
+                This website was last updated at 2013-02-21T21:42:45.148Z
             &lt;/p&gt;
         &lt;/footer&gt;
     &lt;/div&gt;&lt;!-- /container --&gt;
 
     &lt;!-- Scripts --&gt;
-    &lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery-1.6.4.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/prettify.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+    &lt;script &gt;(function(){
+	// Did we just livereload?
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+// Listen for the regenerated event
+// and perform a reload of the page when the event occurs
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		// Inject socket.io into our page then listen once loaded
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		inject();
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery-1.6.4.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/prettify.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -192,9 +234,9 @@
         
             <entry>
                 <title>Hello</title>
-                <link href="http://balupton.com/posts/hello.html"/>
-                <updated>2013-02-20T20:11:56.000Z</updated>
-                <id>http://balupton.com/posts/hello.html</id>
+                <link href="http://balupton.com/posts/hello"/>
+                <updated>2013-02-21T21:14:15.000Z</updated>
+                <id>http://balupton.com/posts/hello</id>
                 <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -258,27 +300,33 @@
                         
                     
                         
-                    
-                        
-                    
-                        
-                    
-                        
-                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/call-for-papers.html&quot; class=&quot;&quot;&gt;
-                            &lt;a href=&quot;/pages/call-for-papers.html&quot; property=&quot;dc:title&quot;&gt;Call for Papers&lt;/a&gt;
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/call-for-papers&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/call-for-papers&quot; property=&quot;dc:title&quot;&gt;Call for Papers&lt;/a&gt;
                         &lt;/li&gt;
                         
                     
                         
-                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/committee.html&quot; class=&quot;&quot;&gt;
-                            &lt;a href=&quot;/pages/committee.html&quot; property=&quot;dc:title&quot;&gt;Commitee&lt;/a&gt;
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/committee&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/committee&quot; property=&quot;dc:title&quot;&gt;Commitee&lt;/a&gt;
                         &lt;/li&gt;
                         
                     
                         
-                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/Submissions.html&quot; class=&quot;&quot;&gt;
-                            &lt;a href=&quot;/pages/Submissions.html&quot; property=&quot;dc:title&quot;&gt;Submissions&lt;/a&gt;
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/Submissions&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/Submissions&quot; property=&quot;dc:title&quot;&gt;Submissions&lt;/a&gt;
                         &lt;/li&gt;
+                        
+                    
+                        
+                        &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/test.md&quot; class=&quot;&quot;&gt;
+                            &lt;a href=&quot;/pages/test.md&quot; property=&quot;dc:title&quot;&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        
+                    
+                        
+                    
+                        
+                    
                         
                     
                         
@@ -316,13 +364,47 @@
         &lt;footer&gt;
             &lt;p&gt;&amp;copy; 2013 SSRR&lt;/p&gt;
             &lt;p style=&quot;float:right;&quot;&gt;
-                This website was last updated at 2013-02-21T07:38:51.984Z
+                This website was last updated at 2013-02-21T21:42:45.148Z
             &lt;/p&gt;
         &lt;/footer&gt;
     &lt;/div&gt;&lt;!-- /container --&gt;
 
     &lt;!-- Scripts --&gt;
-    &lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery-1.6.4.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/prettify.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+    &lt;script &gt;(function(){
+	// Did we just livereload?
+var log = true &amp;&amp; localStorage &amp;&amp; console &amp;&amp; console.log &amp;&amp; true;
+if ( log &amp;&amp; localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReloaded at', new Date())
+}
+
+// Listen for the regenerated event
+// and perform a reload of the page when the event occurs
+var listen = function(){
+	var socket = io.connect('/docpad-livereload');
+	socket.on('regenerated',function(){
+		if ( log ) {
+	localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+}
+document.location.reload();
+	});
+};
+	if ( typeof io !== 'undefined' ) {
+		listen();
+	} else {
+		// Inject socket.io into our page then listen once loaded
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = true;
+	t.src = '/socket.io/socket.io.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t,s);
+};
+		inject();
+	}
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery-1.6.4.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/prettify.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
@@ -332,9 +414,9 @@
         
             <entry>
                 <title>Read More</title>
-                <link href="http://balupton.com/posts/readmore.html"/>
-                <updated>2013-02-20T20:11:56.000Z</updated>
-                <id>http://balupton.com/posts/readmore.html</id>
+                <link href="http://balupton.com/posts/readmore"/>
+                <updated>2013-02-21T21:14:15.000Z</updated>
+                <id>http://balupton.com/posts/readmore</id>
                 <content type="html"></content>
             </entry>
         
