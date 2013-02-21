@@ -3,7 +3,7 @@
     <title>Benjamin Lupton</title>
     <link href="http://balupton.com/atom.xml" rel="self"/>
     <link href="http://balupton.com"/>
-    <updated>2013-02-21T21:47:18.138Z</updated>
+    <updated>2013-02-21T21:51:21.721Z</updated>
     <id>http://balupton.com</id>
     <author>
         <name>Benjamin Lupton</name>
@@ -122,8 +122,6 @@
                         
                     
                         
-                    
-                        
                         &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/call-for-papers&quot; class=&quot;&quot;&gt;
                             &lt;a href=&quot;/pages/call-for-papers&quot; property=&quot;dc:title&quot;&gt;Call for Papers&lt;/a&gt;
                         &lt;/li&gt;
@@ -145,6 +143,8 @@
                         &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/test.md&quot; class=&quot;&quot;&gt;
                             &lt;a href=&quot;/pages/test.md&quot; property=&quot;dc:title&quot;&gt;&lt;/a&gt;
                         &lt;/li&gt;
+                        
+                    
                         
                     
                         
@@ -182,7 +182,7 @@
         &lt;footer&gt;
             &lt;p&gt;&amp;copy; 2013 SSRR&lt;/p&gt;
             &lt;p style=&quot;float:right;&quot;&gt;
-                This website was last updated at 2013-02-21T21:47:18.138Z
+                This website was last updated at 2013-02-21T21:51:21.721Z
             &lt;/p&gt;
         &lt;/footer&gt;
     &lt;/div&gt;&lt;!-- /container --&gt;
@@ -302,8 +302,6 @@ var inject = function(){
                         
                     
                         
-                    
-                        
                         &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/call-for-papers&quot; class=&quot;&quot;&gt;
                             &lt;a href=&quot;/pages/call-for-papers&quot; property=&quot;dc:title&quot;&gt;Call for Papers&lt;/a&gt;
                         &lt;/li&gt;
@@ -325,6 +323,8 @@ var inject = function(){
                         &lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/test.md&quot; class=&quot;&quot;&gt;
                             &lt;a href=&quot;/pages/test.md&quot; property=&quot;dc:title&quot;&gt;&lt;/a&gt;
                         &lt;/li&gt;
+                        
+                    
                         
                     
                         
@@ -362,7 +362,7 @@ var inject = function(){
         &lt;footer&gt;
             &lt;p&gt;&amp;copy; 2013 SSRR&lt;/p&gt;
             &lt;p style=&quot;float:right;&quot;&gt;
-                This website was last updated at 2013-02-21T21:47:18.138Z
+                This website was last updated at 2013-02-21T21:51:21.721Z
             &lt;/p&gt;
         &lt;/footer&gt;
     &lt;/div&gt;&lt;!-- /container --&gt;
@@ -410,6 +410,8 @@ var inject = function(){
         
     
         
+    
+        
             <entry>
                 <title>Read More</title>
                 <link href="http://balupton.com/posts/readmore"/>
@@ -417,8 +419,6 @@ var inject = function(){
                 <id>http://balupton.com/posts/readmore</id>
                 <content type="html"></content>
             </entry>
-        
-    
         
     
         
