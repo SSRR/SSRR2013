@@ -12,6 +12,19 @@ There is 2 github repositories:
 
 1. [Install DocPad](https://github.com/bevry/docpad) if you want to generate a local version of the website on your machine
 
+	``` bash
+	npm install npm install -fg docpad@6.21
+  	npm install --save docpad-plugin-eco
+  	npm install --save docpad-plugin-coffeescript
+  	npm install --save docpad-plugin-marked
+	npm install --save docpad-plugin-stylus
+	npm install --save docpad-plugin-less
+  	npm install --save docpad-plugin-haml
+	npm install --save docpad-plugin-js2coffee
+	npm install --save docpad-plugin-coffeekup
+	npm install --save docpad-plugin-html2coffee
+	```
+
 1. Configure correctly your email and name:
 
 	``` bash
