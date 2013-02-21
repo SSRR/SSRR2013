@@ -12,8 +12,8 @@ There is 2 github repositories:
 
 1. [Install DocPad](https://github.com/bevry/docpad) if you want to generate a local version of the website on your machine
 
+1. Install the following Docpad plugins needed by SSRR website:
 	``` bash
-	npm install npm install -fg docpad@6.21
   	npm install --save docpad-plugin-eco
   	npm install --save docpad-plugin-coffeescript
   	npm install --save docpad-plugin-marked
@@ -25,7 +25,7 @@ There is 2 github repositories:
 	npm install --save docpad-plugin-html2coffee
 	```
 
-1. Configure correctly your email and name:
+1. Configure correctly your email and name for git:
 
 	``` bash
 	git config --global user.name "Your Name"
