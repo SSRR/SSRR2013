@@ -16,7 +16,7 @@ title: 'Commitee'
  * Kostas Daniilidis, Penn, USA (Americas)
  * Andreas Kolling, Linköping University, Sweden (Europe)
 
-###Treasurer:
+###Treasurer
  * Geert-Jan Kruijff, DFKI Gmbh, Germany
 
 ###Publication Chair
