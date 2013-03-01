@@ -12,9 +12,9 @@ title: 'Commitee'
  * Fredrik Heintz, Linköping University, Sweden
 
 ###Regional Program Chairs
- * Hideyuki Tsukagoshi, Tokyo Institute of Technology, Japan (Asia and Oceania)
- * Kostas Daniilidis, Penn, USA (Americas)
+ * Paul Scerri, CMU, USA (Americas)
  * Andreas Kolling, Linköping University, Sweden (Europe)
+ * ***TBD*** (Asia and Oceania)
 
 ###Treasurer
  * Geert-Jan Kruijff, DFKI Gmbh, Germany
@@ -27,4 +27,3 @@ title: 'Commitee'
 
 ##Program Committee
 ***TBD***
-
