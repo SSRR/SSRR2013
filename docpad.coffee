@@ -74,7 +74,7 @@ docpadConfig = {
 			docpad = @docpad
 
 			# As we are now running in an event,
-			# ensure we are using the latest copy of the docpad configuraiton
+			# ensure we are using the latest copy of the docpad configuration
 			# and fetch our urls from it
 			latestConfig = docpad.getConfig()
 			oldUrls = latestConfig.templateData.site.oldUrls or []
@@ -91,11 +91,13 @@ docpadConfig = {
     # Environments
 
 	environments:
-        development:
-            templateData:
-                site:
-                    url: 'http://localhost:9778'
+		development:
+        	templateData:
+               	site:
+                    url: "http://localhost:9778"
 
+                getSiteUrl: ->
+                    ""
 }
 
 
