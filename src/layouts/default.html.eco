@@ -36,7 +36,7 @@
 					<% for document in @getCollection('documents').toJSON(): %>
 						<% if document.url.indexOf('/pages') == 0: %>
 						<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
-							<a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
+							<a href="<%= @getSiteUrl() %><%= document.url %>" property="dc:title"><%= document.title %></a>
 						</li>
 						<% end %>
 					<% end %>

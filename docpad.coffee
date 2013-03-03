@@ -11,15 +11,18 @@ docpadConfig = {
 
 		# Specify some site properties
 		site:
+			# Year of the conference
+			year: "2013"
+
 			# The production url of our website
-			url: "http://www.ssrr2012.org/2013"
+			url: "http://www.ssrr-conference.org"
 
 			# The default title of our website
-			title: "SSRR 2013"
+			title: "SSRR 2013 Conference"
 
 			# The website description (for SEO)
 			description: """
-				     SSRR 2013 Website
+				     SSRR 2013 conference Website
 				"""
 
 			# The website keywords (for SEO) separated by commas
@@ -52,6 +55,9 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
+		# Get the absolute Development URL of the website	
+		getSiteUrl: ->
+		        "#{@site.url}/#{@site.year}"
 
 	# =================================
 	# DocPad Events
@@ -89,6 +95,7 @@ docpadConfig = {
             templateData:
                 site:
                     url: 'http://localhost:9778'
+
 }
 
 
