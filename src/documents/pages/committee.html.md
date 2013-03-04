@@ -17,7 +17,7 @@ title: 'Commitee'
  * ***TBD*** (Asia and Oceania)
 
 ###Treasurer
- * Geert-Jan Kruijff, DFKI Gmbh, Germany
+ * TBD
 
 ###Publication Chair
  * Serge Stinckwich, IRD, France 
