@@ -17,7 +17,7 @@ title: 'Commitee'
  * ***TBD*** (Asia and Oceania)
 
 ###Treasurer
- * TBD
+ * Gerald Steinbauer, TU Graz, Austria
 
 ###Publication Chair
  * Serge Stinckwich, IRD, France 
