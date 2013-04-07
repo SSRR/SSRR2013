@@ -14,7 +14,7 @@ title: 'Commitee'
 ###Regional Program Chairs
  * Paul Scerri, CMU, USA (Americas)
  * Andreas Kolling, Linköping University, Sweden (Europe)
- * ***TBD*** (Asia and Oceania)
+ * Fumitoshi Matsuno, Kyoto, Japan
 
 ###Treasurer
  * Gerald Steinbauer, TU Graz, Austria
