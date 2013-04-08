@@ -4,7 +4,7 @@ title: 'Call for Papers'
 ---
 
 Download here the 
- <a href="files/pdf/cfp-ssrr2013.pdf">PDF</a> 
+ <a href="/2013/pdf/cfp-ssrr2013.pdf">PDF</a> 
 version of the Call For Papers (CFP).
 
 ##Call for Papers
