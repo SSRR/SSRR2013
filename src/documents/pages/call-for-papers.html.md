@@ -3,6 +3,10 @@ layout: 'default'
 title: 'Call for Papers'
 ---
 
+Download here the 
+ <a href="files/pdf/cfp-ssrr2013.pdf">PDF</a> 
+version of the Call For Papers (CFP).
+
 ##Call for Papers
 ##IEEE International Symposium on Safety, Security, and Rescue Robotics
 ##Oct. 21-26, 2013
